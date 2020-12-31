@@ -7,6 +7,7 @@ Hello my name is Caleb Wilson and I am an aspiring applied mathematician. I like
 ### Risk Game analysis with PyRisk
 
 <img src="cm_aggregate.png" alt="Confusion Matrices for classifiers" class="inline"/>
+
 <small>**Above:** A comparison of different classification methods used to predict the winner of a risk game. The Confusion
 matrix shows how many times they classified a certain player winning vs which player actual won. The dark blue diagonal
 indicates that the classifiers performed well.</small>
@@ -30,7 +31,8 @@ to the k-nearest neighbors classifier. For a fuller explanation, please see the 
 
 ### Gravitational Slingshot physics simulation
 
-<img src="slingshot_options.png" alt="A plot several different slingshot trajectories" class="inline"/>
+<img src="slingshot_options.png" alt="A plot several different slingshot trajectories" style="padding: 1% 4%;"/>
+
 <small>**Above:** By varying the initial velocity slightly, we were able to plot out several different possible slingshot
 trajectories for a satellite in our model. While this is plotted in 2d for simplicity, we also did some 3d simulations,
 plots, and animations.</small>
