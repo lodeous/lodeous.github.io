@@ -45,8 +45,8 @@ velocity to slingshot an object to a trajectory that would approximately pass th
 I wrote 2d and 3d plotting and animation code, including initial/final velocities, energies, and an acceleration vector
 field. I also helped find initial conditions that led to a gravitational slingshot.
 
- - [Repository](https://github.com/samcochran/Gravitational-Slingshot)
- - [Animations](https://samcochran.github.io/Gravitational-Slingshot/)
+ - [Repository](https://github.com/samcochran/optimal-spacecraft-control)
+ - [Animations](https://samcochran.github.io/optimal-spacecraft-control/)
  
 ### UniWar
 
