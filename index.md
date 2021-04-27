@@ -46,7 +46,25 @@ I wrote 2d and 3d plotting and animation code, including initial/final velocitie
 field. I also helped find initial conditions that led to a gravitational slingshot.
 
  - [Repository](https://github.com/samcochran/optimal-spacecraft-control)
+ - [Animations](https://samcochran.github.io/optimal-spacecraft-control/nbody_slingshot.html)
+ 
+### Optimal Spacecraft Control in an n-body system
+
+<img src="second_control_attempt.png" alt="Optimal control example" class="inline"/>
+
+<small>**Above**: Here you can see one of our optimal control solutions. The thrust control descibed by u1 and u2 on the second graph shows the
+optimal thrust of the spacecraft over time. Here you can see it is optimal for it to spend all of its thrust at the beginning as it passes by the sun.
+Looking at the animated version (see link below), you can see that it thrusts towards the sun to maximize its velocity gain as it slingshots past the sun.</small>
+
+Building off our previous slingshot project, my group solved an optimal control problem that minimizes the amount of fuel and time it takes for a spacecraft
+to get close to a target destination. I helped in the mathematical formulation of the problem, adding mass as part of the state equation, finding a difficult vector derivative,
+and contributing ideas that allowed us to solve for our optimal control linearly in terms of the costate. I also wrote most of the solution code that implements the
+optimal control problem as a boundary value problem solved with scipy's `solve_bvp` function. In addition, I wrote the base code for plotting and animating the solutions,
+which was then expanded upon by my teammates.
+
+ - [Repository](https://github.com/samcochran/optimal-spacecraft-control) (same as above)
  - [Animations](https://samcochran.github.io/optimal-spacecraft-control/)
+ - [Report (PDF)](Math_438_Project.pdf)
  
 ### UniWar
 
