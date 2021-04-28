@@ -2,7 +2,7 @@
 
 ### Welcome to my personal github portfolio!
 
-Hello my name is Caleb Wilson and I am an aspiring applied mathematician. I like math, programming, machine learning, and strategy games. This github portfolio is here to showcase some of my work.
+Hello my name is Caleb Wilson and I am an applied mathematician. I like math, programming, machine learning, and strategy games. This github portfolio is here to showcase some of my work.
 
 ### Risk Game analysis with PyRisk
 
@@ -58,13 +58,30 @@ Looking at the animated version (see link below), you can see that it thrusts to
 
 Building off our previous slingshot project, my group solved an optimal control problem that minimizes the amount of fuel and time it takes for a spacecraft
 to get close to a target destination. I helped in the mathematical formulation of the problem, adding mass as part of the state equation, finding a difficult vector derivative,
-and contributing ideas that allowed us to solve for our optimal control linearly in terms of the costate. I also wrote most of the solution code that implements the
-optimal control problem as a boundary value problem solved with scipy's `solve_bvp` function. In addition, I wrote the base code for plotting and animating the solutions,
-which was then expanded upon by my teammates.
+rewriting the control from polar coordinates to euclidean coordinates, and contributing ideas that allowed us to solve for our optimal control linearly in terms of the costate.
+For those unfamiliar with the math jargon surrouding optimal control, it was important that we found a linear solution to the optimal control because allowed us actually find a
+solution to our optimal control (and in general it makes your problem more tractable). Previous attempts with a nonlinear solution took a long time to calculate with the added 
+bonus of not converging to a solution after the hours-long calculation.
+Once we got to the coding part of our project, I wrote most of the solution code that implements the optimal control problem as a boundary value problem solved with scipy's `solve_bvp` function. 
+In addition, I wrote the base code for plotting and animating the solutions, which was then expanded upon by my teammates.
 
  - [Repository](https://github.com/samcochran/optimal-spacecraft-control) (same as above)
  - [Animations](https://samcochran.github.io/optimal-spacecraft-control/)
  - [Report (PDF)](Math_438_Project.pdf)
+ 
+### General Conference Topic classification and talk recommendation
+
+As a group project in college, my group and I set out to classify general conference talk topics and recommendation talks based on their topics. These talks
+were taken from the Church of Jesus Christ of Latter Day Saints, which holds a "general conference" twice a year. We scraped talks from the Church's
+website www.churchofjesuschrist.org as well as from the website scriptures.byu.edu which had easy to parse versions of the talks for a longer period of time.
+I wrote the code to scrape the talks from scriptures.byu.edu. I also wrote code that utilized nonnegative matrix factorization to create a recommender system.
+I assisted in training Random Forest classifiers to classify topics based on the output of an unsupervised Latent Dirichlet Allocation Collapsed Gibbs Sampling
+performed on the talks.
+
+For a full explanation of the project and the results, please see the report below.
+
+ - [Repository](https://github.com/lodeous/gencon-nlp)
+ - [Report PDF](FINAL_General_Conference_NLP_21.pdf) 
  
 ### UniWar
 
