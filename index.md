@@ -2,7 +2,7 @@
 
 ### Welcome to my personal github portfolio!
 
-Hello my name is Caleb Wilson and I am an applied mathematician. I like math, programming, machine learning, and strategy games. This github portfolio is here to showcase some of my work.
+Hello my name is Caleb Wilson and I am an applied mathematician. I like math, programming, machine learning, and strategy games. This github portfolio is here to showcase some of my work. You can check out the rest of my profile [here](https://github.com/lodeous).
 
 ### Risk Game analysis with PyRisk
 
